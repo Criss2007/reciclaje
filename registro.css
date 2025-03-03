@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+.contenedor {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formulario-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-contenedor {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.icono {
+    margin-right: 10px;
+    color: #888;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    padding: 5px;
+    color: #333;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.boton {
+    width: 100%;
+    padding: 10px;
+    background: #6e8efb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton:hover {
+    background: #a777e3;
+}
+
+.ojo {
+    cursor: pointer;
+    color: #888;
+}

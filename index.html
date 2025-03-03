@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas y Respuestas</title>
+    <link rel="stylesheet" href="principal.css">
+    <script src="proceso.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <div class="logo">
+            <img class="logo-img" src="perfil.png" alt="Logo">
+        </div>
+
+        <form onsubmit="return false;">
+            <label for="nombre">Nombre de usuario:</label>
+            <input type="text" id="nombre" class="text2" placeholder="Ingresa tu usuario" required autocomplete="off">
+
+            <div class="password-wrapper">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" class="text3" placeholder="**********" required autocomplete="off">
+                <button type="button" class="toggle-password" onclick="togglePassword()">👁️</button>
+            </div>
+
+
+            <div class="botones">
+                <button type="button" class="btn-start" id="btnLogin">Iniciar Sesión</button>
+        <button type="button" class="btn-score" id="btnRegistro">Registrarse</button>
+            </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

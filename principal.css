@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    width: 40%;
+    margin: 50px auto;
+    background:#0D6EFD;
+   padding: 20px;
+    border-radius: 8px;
+    border: 5px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Logo */
+.logo-img {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 70%;
+    border: 7px solid  black;
+    object-fit: cover;
+}
+
+
+.password-wrapper {
+    position: relative;
+    margin: 10px auto;
+}
+
+
+.toggle-password {
+    position: absolute;
+    right: 160px; 
+    width: 1px;
+    height: 8px;/* Ajusta la posición exacta al lado */
+    top: 50%;
+    transform: translateY(-29%);
+    background: #0D6EFD;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.0s ease, color  #0D6EFD 0.1s ease;
+    padding: 1px; /* Hace que el área clickeable sea más grande */
+    border-radius: 40%; /* Hace el botón redondo */
+    outline: none;
+}
+
+
+/* Campos de entrada */
+.text2 {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    height: 39px;
+    padding: 10px;
+    border: 1px solid #050505;
+    border-radius: 4px;
+}
+
+.text3 {
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    height: 39px;
+    padding: 9px;
+    border: 1px solid #050505;
+    border-radius: 4px;
+}
+ 
+label {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Contenedor de botones */
+.botones {
+    display: flex;
+    flex-direction: column; /* Coloca los botones uno encima del otro */
+    align-items: center;
+    gap: 15px; /* Espacio entre los botones */
+    margin-top: 20px;
+}
+
+/* Estilos generales de los botones */
+button {
+    font-size: 18px;
+    padding: 12px 24px;
+    width: 220px;
+    background-color: hsl(126, 97%, 50%);
+    border: 2px solid black;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: #c5c5c5ca;
+} 
+
+
+
+
+
+
+
+
+

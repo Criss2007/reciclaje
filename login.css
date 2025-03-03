@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eefb;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    width: 40%;
+    height: 600px;
+    margin: 50px auto;
+    background:#ffffff;
+   padding: 80px;
+    border-radius: 8px;
+    border: 5px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.icon {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon img {
+    width: 100px;
+    height: 80px;
+}
+
+.icon.selected {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cantidad {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+button {
+    width: 30%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #6b4fd1;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #5a3ec6;
+}
+
+.resultados {
+    text-align: left;
+    right: px;
+    width: 700px;
+    height: 23;
+    margin-top: 15px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.resultados p {
+    margin: 3px 0;
+}
+
+#finalizar {
+    background-color: #6b4fd1;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#finalizar:hover {
+    background-color: #5a3ec6;
+}

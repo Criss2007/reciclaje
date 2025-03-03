@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciclaje de Materiales</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Seleccione el tipo de contenido a reciclar</h2>
+    <div class="icon-container">
+        <div class="icon" data-material="plástico">
+            <img src="plastico.png" alt="Plástico">
+            <span class="cantidad" id="cantidadPlástico">0 kg</span>
+        </div>
+        <div class="icon" data-material="cartón">
+            <img src="carton.png" alt="Cartón">
+            <span class="cantidad" id="cantidadCartón">0 kg</span>
+        </div>
+        <div class="icon" data-material="metales">
+            <img src="metal.png" alt="Metales">
+            <span class="cantidad" id="cantidadMetales">0 kg</span>
+        </div>
+        <div class="icon" data-material="electrónica">
+            <img src="electronica.png" alt="Electrónica">
+            <span class="cantidad" id="cantidadElectrónica">0 kg</span>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="cantidad">Cantidad</label>
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad en Kg">
+    </div>
+
+    <div>
+<button id="guardar">Guardar</button>
+        </div>
+
+        <div class="resultados">
+            <p>Plástico: <span id="resPlastico">0</span> kg</p>
+            <p>Cartón: <span id="resCarton">0</span> kg</p>
+            <p>Metales: <span id="resMetales">0</span> kg</p>
+            <p>Electrónica: <span id="resElectronica">0</span> kg</p>
+        </div>
+
+    <button id="finalizar">Finalizar</button>
+
+    <script src="login.js"></script>
+</body>
+</html>
