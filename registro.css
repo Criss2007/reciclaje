@@ -1,3 +1,4 @@
+/* Estilos globales */
 * {
     margin: 0;
     padding: 0;
@@ -9,38 +10,48 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 20px;
 }
 
+/* Contenedor principal */
 .contenedor {
     background: #fff;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
 }
 
+/* Título */
 h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
+    font-size: 24px;
 }
 
+/* Formulario */
 .formulario-contenedor {
     display: flex;
     flex-direction: column;
 }
 
+/* Campo del formulario */
 .campo {
     margin-bottom: 20px;
 }
 
+/* Etiquetas */
 label {
     margin-bottom: 5px;
     color: #555;
+    font-size: 16px;
 }
 
+/* Contenedor de entrada */
 .input-contenedor {
     display: flex;
     align-items: center;
@@ -50,40 +61,48 @@ label {
     background: #f9f9f9;
 }
 
+/* Icono */
 .icono {
     margin-right: 10px;
     color: #888;
+    font-size: 20px;
 }
 
+/* Campos de entrada */
 input {
     border: none;
     outline: none;
     background: none;
     flex: 1;
-    padding: 5px;
+    padding: 10px;
     color: #333;
+    font-size: 16px;
 }
 
 input::placeholder {
     color: #aaa;
 }
 
+/* Botón */
 .boton {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background: #6e8efb;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+    font-size: 18px;
 }
 
 .boton:hover {
     background: #a777e3;
 }
 
+/* Icono de mostrar/ocultar contraseña */
 .ojo {
     cursor: pointer;
     color: #888;
+    font-size: 20px;
 }
